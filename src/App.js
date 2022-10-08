@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import React from 'react';
+// import Patient from './compoments/patient/patient';
+// import Location1 from './compoments/location1/location1';
+import Location from './compoments/location/location';
 
 function App() {
+
+
+  console.log("app rendering")
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+<div className="App container" dir="rtl">
+<h1>Hello from react</h1>
+<Location initVal={{cityVal:1,loctVal:4}} />
+{/* <Location/> */}
+
+  {/* <Patient /> */}
+  </div>
   );
 }
 
-export default App;
+export default React.memo(App);

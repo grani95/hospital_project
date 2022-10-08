@@ -1,0 +1,67 @@
+var data = {"patients":
+[{
+"fileId":1,
+"name":"patient1",
+"age":18,
+"tel1":124567,
+"tel2":2456,
+"email":"patient@gmail.com",
+"bloodCat":3
+},
+{
+    "fileId":1,
+    "name":"patient1",
+    "age":18,
+    "tel1":124567,
+    "tel2":2456,
+    "email":"patient@gmail.com",
+    "bloodCat":3
+    },
+    {
+        "fileId":1,
+        "name":"patient1",
+        "age":18,
+        "tel1":124567,
+        "tel2":2456,
+        "email":"patient@gmail.com",
+        "bloodCat":3
+        },
+        {
+            "fileId":1,
+            "name":"patient1",
+            "age":18,
+            "tel1":124567,
+            "tel2":2456,
+            "email":"patient@gmail.com",
+            "bloodCat":3
+            },
+            {
+                "fileId":1,
+                "name":"patient1",
+                "age":18,
+                "tel1":124567,
+                "tel2":2456,
+                "email":"patient@gmail.com",
+                "bloodCat":3
+                },
+                {
+                    "fileId":1,
+                    "name":"patient1",
+                    "age":18,
+                    "tel1":124567,
+                    "tel2":2456,
+                    "email":"patient@gmail.com",
+                    "bloodCat":3
+                    },
+                    {
+                        "fileId":1,
+                        "name":"patient1",
+                        "age":18,
+                        "tel1":124567,
+                        "tel2":2456,
+                        "email":"patient@gmail.com",
+                        "bloodCat":3
+                        }
+
+]
+}
