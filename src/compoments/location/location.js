@@ -25,8 +25,9 @@ const {cityVal,loctVal}=initVal
         }
 
      
+        const getCities = useCallback(()=>fetchCities('https://herokularavel95.herokuapp.com/api/city/listCities'))
        
-       const getCities = useCallback(()=>fetchCities('http://127.0.0.1:8000/api/city/listCities'))
+      //  const getCities = useCallback(()=>fetchCities('http://127.0.0.1:8000/api/city/listCities'))
       // const getCities = ()=>fetchCities('http://127.0.0.1:8000/api/city/listCities')
 useEffect(()=>{
   getCities()

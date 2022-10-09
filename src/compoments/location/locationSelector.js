@@ -22,8 +22,9 @@ loctRef.current.value=4
     }
   
   const getCityLocation=()=>{
+    fechCityLocation('https://herokularavel95.herokuapp.com/api/city/listCityLocations/'+city)
 
-     fechCityLocation('http://127.0.0.1:8000/api/city/listCityLocations/'+city)
+    //  fechCityLocation('http://127.0.0.1:8000/api/city/listCityLocations/'+city)
 
     }
 
